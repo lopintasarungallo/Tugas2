@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tugas 2</string>
+    <string name="tvwelcome">Selamat Datang</string>
+    <string name="btnartikel">Artikel</string>
+    <string name="btnbiodata">Biodata</string>
+    <string name="btnberanda">Beranda</string>
+</resources>

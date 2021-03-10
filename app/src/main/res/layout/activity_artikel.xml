@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bk3"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="164dp"
+        android:layout_height="53dp"
+        android:text="ARTIKEL"
+        android:textColor="#ffffff"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:fontFamily="times new roman"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.554"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.038" />
+
+    <TextView
+        android:layout_width="325dp"
+        android:layout_height="37dp"
+        android:fontFamily="monospace"
+        android:text="Jangan Mudah Menyerah"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.113" />
+
+    <TextView
+        android:layout_width="354dp"
+        android:layout_height="391dp"
+        android:fontFamily="monospace"
+        android:gravity="center_horizontal"
+        android:text="Siapapun Anda, apapun profesi Anda, Anda harus memperhatikan sifat jangan mudah menyerah. Karena harus Anda sadari bahwa dalam setiap perjalanan hidup, pasti kita akan dihadapakan dengan berbagai masalah, yang kadang-kadang memang sangat berat. Namun, yakinlah bahwa di dalam sebuah masalah yang berat tersebut pasti ada hikmah yang kadang kita tidak akan mengerti sebelum kita menghadapi masalah tersebut. Maka dari itu, hadapi masalah tersebut dengan lapang dan penuh semangat, jangan menjadi orang yang mudah menyerah."
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.373" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="toBeranda"
+        android:text="@string/btnberanda"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.553"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.847" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:onClick="toBiodata"
+        android:text="@string/btnartikel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.777" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
